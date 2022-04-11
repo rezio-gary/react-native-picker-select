@@ -33,7 +33,6 @@
         "enzyme": "^3.7.0",
         "enzyme-adapter-react-16": "^1.7.0",
         "enzyme-to-json": "^3.3.5",
-        "eslint-config-ls-react": "https://github.com/lawnstarter/eslint-config-ls-react#3.0.0",
         "husky": "^2.4.0",
         "jest": "^23.6.0",
         "prettier": "^1.15.3",
@@ -53,12 +52,6 @@
         "preprettier:all": "yarn run prettier:debug-check",
         "prettier:all": "prettier --config ./.prettierrc.js --write \"{src,test}/**/*.js\"",
         "lint": "echo \"---Running ESLint---\" && eslint \"src/**/*.{js,jsx}\""
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "pretty-quick --staged",
-            "pre-push": "echo \"---Running ESLint---\" && yarn lint && yarn test"
-        }
     },
     "jest": {
         "preset": "react-native",
