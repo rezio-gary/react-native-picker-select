@@ -56,6 +56,7 @@ type CustomTouchableWrapperProps = Omit<TouchableOpacityProps, 'onPress'>;
 
 export interface PickerSelectProps {
     onValueChange: (value: any, index: number) => void;
+    skipOnValueChange?: boolean;
     items: Item[];
     value?: any;
     placeholder?: Item | {};
