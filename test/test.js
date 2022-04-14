@@ -214,7 +214,7 @@ describe('RNPickerSelect', () => {
         });
     });
 
-    it.skip('should update the selected value when the `value` prop updates and call the onValueChange cb', () => {
+    it('should update the selected value when the `value` prop updates and call the onValueChange cb', () => {
         const onValueChangeSpy = jest.fn();
         const wrapper = shallow(
             <RNPickerSelect

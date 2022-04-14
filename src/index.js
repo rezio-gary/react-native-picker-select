@@ -133,8 +133,8 @@ export default class RNPickerSelect extends PureComponent {
             !isEqual(nextProps.value, undefined) && !isEqual(prevState.selectedItem, selectedItem);
 
         if (itemsChanged || selectedItemChanged) {
-            if (selectedItemChanged) {
-                // nextProps.onValueChange(selectedItem.value, idx);
+            if (selectedItemChanged && !nextProps.skipOnValueChange) {
+                nextProps.onValueChange(selectedItem.value, idx);
             }
 
             return {
