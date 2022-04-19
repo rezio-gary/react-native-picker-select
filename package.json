@@ -1,12 +1,12 @@
 {
-    "name": "react-native-picker-select-custom",
+    "name": "@rezio-gary/react-native-picker-select-custom",
     "version": "7.0.2",
     "description": "A Picker component for React Native which emulates the native <select> interfaces for each platform",
     "license": "MIT",
     "author": "Michael Lefkowitz <lefkowitz.michael@gmail.com>",
     "repository": {
         "type": "git",
-        "url": "https://github.com/lawnstarter/react-native-picker-select.git"
+        "url": "https://github.com/rezio-gary/react-native-picker-select-custom.git"
     },
     "main": "src/index.js",
     "keywords": [
