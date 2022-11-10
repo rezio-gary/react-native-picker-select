@@ -41,6 +41,7 @@
         "react": "16.6.1",
         "react-dom": "^16.6.1",
         "react-native": "0.57.7",
+        "@react-native-picker/picker": "^2.4.8",
         "react-test-renderer": "^16.6.1"
     },
     "scripts": {
